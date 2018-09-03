@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/user_picture"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_profile"/>
+
+        <TextView
+            android:id="@+id/user_displayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/user_picture"
+            android:layout_toStartOf="@+id/user_distance"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Erick Benites" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/user_picture"
+            android:layout_below="@+id/user_displayname"
+            android:layout_toStartOf="@+id/user_distance"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="ebenites@tecsup.edu.pe" />
+
+        <TextView
+            android:id="@+id/user_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/primary_dark"
+            tools:text="10 kms"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

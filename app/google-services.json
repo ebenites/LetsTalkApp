@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "131479895196",
+    "firebase_url": "https://letstalkapp-a3454.firebaseio.com",
+    "project_id": "letstalkapp-a3454",
+    "storage_bucket": "letstalkapp-a3454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131479895196:android:6a4852bfc35dcff5",
+        "android_client_info": {
+          "package_name": "pe.edu.tecsup.letstalkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131479895196-27vol8k3pf40lal010s5i8j252jd9nu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.tecsup.letstalkapp",
+            "certificate_hash": "dfd2d472f9dede16d710c865070c74a70b706823"
+          }
+        },
+        {
+          "client_id": "131479895196-389gp3ggmfq8nkaslnnsg24rvai8lf54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDA4rvutLqB6l4jODKCGJW7QVxvpivxio"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131479895196-389gp3ggmfq8nkaslnnsg24rvai8lf54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
